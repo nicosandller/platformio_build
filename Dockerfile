@@ -4,7 +4,7 @@ ENV APP_VERSION="5.1.0" \
     APP="platformio-core"
 
 LABEL app.name="${APP}" \
-      app.version="${APP_VERSION}"
+      app.version="${APP_VERSION}" \
       maintainer="Nicolas Sandller"
 
 RUN pip install -U platformio==${APP_VERSION} && \
